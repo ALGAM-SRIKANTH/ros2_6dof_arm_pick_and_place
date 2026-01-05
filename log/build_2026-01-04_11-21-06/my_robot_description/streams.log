@@ -1,0 +1,30 @@
+[0.052s] Invoking command in '/home/algam/industrial_arm_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/algam/industrial_arm_ws/build/my_robot_description -- -j4 -l4
+[0.221s] Invoked command in '/home/algam/industrial_arm_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/algam/industrial_arm_ws/build/my_robot_description -- -j4 -l4
+[0.271s] Invoking command in '/home/algam/industrial_arm_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/algam/industrial_arm_ws/build/my_robot_description
+[0.297s] -- Install configuration: ""
+[0.297s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/launch
+[0.298s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/launch/display.launch.xml
+[0.298s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/rviz
+[0.298s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/rviz/urdf_config.rviz
+[0.298s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/urdf
+[0.298s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/urdf/gripper.xacro
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/urdf/arm.xacro
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/urdf/common_properties.xacro
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf.xacro
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.ros2_control.xacro
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.299s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.300s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.300s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.301s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.301s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.301s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.302s] -- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_description/share/my_robot_description/package.xml
+[0.310s] Invoked command in '/home/algam/industrial_arm_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/algam/industrial_arm_ws/build/my_robot_description

@@ -1,0 +1,42 @@
+[0.046s] Invoking command in '/home/algam/industrial_arm_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/algam/industrial_arm_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/algam/industrial_arm_ws/install/my_robot_bringup
+[0.474s] -- The C compiler identification is GNU 13.3.0
+[0.795s] -- The CXX compiler identification is GNU 13.3.0
+[0.896s] -- Detecting C compiler ABI info
+[1.381s] -- Detecting C compiler ABI info - done
+[1.387s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.391s] -- Detecting C compile features
+[1.392s] -- Detecting C compile features - done
+[1.433s] -- Detecting CXX compiler ABI info
+[1.939s] -- Detecting CXX compiler ABI info - done
+[1.949s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.949s] -- Detecting CXX compile features
+[1.951s] -- Detecting CXX compile features - done
+[1.967s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.405s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.672s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.882s] -- Added test 'lint_cmake' to check CMake code style
+[2.887s] -- Added test 'xmllint' to check XML markup files
+[2.889s] -- Configuring done (2.8s)
+[2.894s] -- Generating done (0.0s)
+[2.897s] -- Build files have been written to: /home/algam/industrial_arm_ws/build/my_robot_bringup
+[2.919s] Invoked command in '/home/algam/industrial_arm_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/algam/industrial_arm_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/algam/industrial_arm_ws/install/my_robot_bringup
+[2.933s] Invoking command in '/home/algam/industrial_arm_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/algam/industrial_arm_ws/build/my_robot_bringup -- -j4 -l4
+[3.243s] Invoked command in '/home/algam/industrial_arm_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/algam/industrial_arm_ws/build/my_robot_bringup -- -j4 -l4
+[3.270s] Invoking command in '/home/algam/industrial_arm_ws/build/my_robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/algam/industrial_arm_ws/build/my_robot_bringup
+[3.320s] -- Install configuration: ""
+[3.320s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[3.330s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[3.331s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[3.333s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[3.334s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[3.334s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[3.334s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[3.334s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[3.335s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[3.336s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[3.336s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[3.336s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[3.336s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[3.336s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[3.336s] -- Installing: /home/algam/industrial_arm_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[3.376s] Invoked command in '/home/algam/industrial_arm_ws/build/my_robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/algam/industrial_arm_ws/build/my_robot_bringup

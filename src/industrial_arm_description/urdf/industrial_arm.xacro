@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot name="industrial_arm" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:include filename="$(find industrial_arm_description)/urdf/materials.xacro"/>
+  <xacro:include filename="$(find industrial_arm_description)/urdf/macros.xacro"/>
+
+  <!-- World -->
+  <link name="world"/>
+
+  <!-- Base -->
+  <xacro:link_cylinder
+    name="base_link"
+    length="0.15"
+    radius="0.1"
+    mass="5.0"
+    material="grey"/>
+
+  <joint name="world_joint" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Joint 1 -->
+  <xacro:link_cylinder name="shoulder_link" length="0.3" radius="0.06" mass="4.0" material="blue"/>
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="shoulder_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="100" velocity="1.5"/>
+  </joint>
+
+  <!-- Joint 2 -->
+  <xacro:link_cylinder name="upper_arm_link" length="0.4" radius="0.05" mass="3.0" material="grey"/>
+  <joint name="joint_2" type="revolute">
+    <parent link="shoulder_link"/>
+    <child link="upper_arm_link"/>
+    <origin xyz="0 0 0.3" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="1.5"/>
+  </joint>
+
+  <!-- Joint 3 -->
+  <xacro:link_cylinder name="forearm_link" length="0.35" radius="0.045" mass="2.5" material="blue"/>
+  <joint name="joint_3" type="revolute">
+    <parent link="upper_arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0 0 0.4" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="80" velocity="1.5"/>
+  </joint>
+
+  <!-- Wrist joints -->
+  <xacro:link_cylinder name="wrist_1_link" length="0.2" radius="0.04" mass="1.5" material="grey"/>
+  <joint name="joint_4" type="revolute">
+    <parent link="forearm_link"/>
+    <child link="wrist_1_link"/>
+    <origin xyz="0 0 0.35" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="50" velocity="2.0"/>
+  </joint>
+
+  <xacro:link_cylinder name="wrist_2_link" length="0.15" radius="0.035" mass="1.0" material="blue"/>
+  <joint name="joint_5" type="revolute">
+    <parent link="wrist_1_link"/>
+    <child link="wrist_2_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="40" velocity="2.0"/>
+  </joint>
+
+  <xacro:link_cylinder name="wrist_3_link" length="0.1" radius="0.03" mass="0.8" material="black"/>
+  <joint name="joint_6" type="revolute">
+    <parent link="wrist_2_link"/>
+    <child link="wrist_3_link"/>
+    <origin xyz="0 0 0.15" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-3.14" upper="3.14" effort="30" velocity="2.5"/>
+  </joint>
+
+  <!-- Tool -->
+  <link name="tool0"/>
+
+  <joint name="tool0_fixed" type="fixed">
+    <parent link="wrist_3_link"/>
+    <child link="tool0"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+  </joint>
+
+</robot>

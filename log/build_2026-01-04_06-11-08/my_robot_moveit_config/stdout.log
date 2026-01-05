@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/algam/industrial_arm_ws/build/my_robot_moveit_config
+-- Install configuration: ""
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/ament_index/resource_index/package_run_dependencies/my_robot_moveit_config
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/ament_index/resource_index/parent_prefix_path/my_robot_moveit_config
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/ament_prefix_path.sh
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/path.sh
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/environment/path.dsv
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.bash
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.sh
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.zsh
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/local_setup.dsv
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.dsv
+-- Up-to-date: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/ament_index/resource_index/packages/my_robot_moveit_config
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/cmake/my_robot_moveit_configConfig.cmake
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/cmake/my_robot_moveit_configConfig-version.cmake
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/package.xml
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/moveit_rviz.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/spawn_controllers.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/move_group.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/rsp.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/demo.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/setup_assistant.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/warehouse_db.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/launch/static_virtual_joints_tfs.launch.py
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/ros2_controllers.yaml
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/intial_positions.yaml
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/my_robot.srdf
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/joint_limits.yaml
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/moveit_controllers.yaml
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/pilz_cartesian_limits.yaml
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/my_robot.urdf.xacro
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/moveit.rviz
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/my_robot.ros2_control.xacro
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/config/kinematics.yanl
+-- Installing: /home/algam/industrial_arm_ws/install/my_robot_moveit_config/share/my_robot_moveit_config/.setup_assistant
