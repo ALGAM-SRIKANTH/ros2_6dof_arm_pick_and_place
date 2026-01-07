@@ -7,8 +7,6 @@ control, and task-level autonomy using MoveIt 2, ros2_control, and Gazebo.
 The system performs collision-aware pick-and-place tasks in a physics-based
 simulation using an industry-style robot software architecture.
 
----
-
 
 ## Key Concepts Covered
 - ROS 2 Jazzy node architecture
@@ -21,37 +19,33 @@ simulation using an industry-style robot software architecture.
 - C++ MoveGroupInterface usage
 - Gazebo + RViz2 visualization
 
----
 
 ## System Architecture
 
 Task Layer (Pick & Place)
-↓
+        |
 MoveIt 2 (Planning)
-↓
+        |
 ros2_control (Execution)
-↓
+        |
 Gazebo (Physics Simulation)
 
 
----
+## Demo – ROS 2 Pick & Place
 
-## Demo
-**Pick-and-Place Demo**  
-![Demo](demo/pick_place_demo.mp4)
+[Pick and Place Demo](demo/pick_place_preview.gif)
 
----
+[Full demo video](demo/pick_place_demo.mp4)
+
 
 ## Technology Stack
--------------------
-ROS Version -  ROS 2 Jazzy 
+ROS Version -  ROS 2 Jazzy
 Simulator -  Gazebo
 Motion Planning -  MoveIt 2
-Controllers -  ros2_control
+Controllers -  ros2_contro
 Programming Language -  python, C++
 Robot -  Custom 6-DOF Arm + Gripper 
 
----
 
 ## Robot Description
 - 6 revolute joints (position-controlled)
@@ -60,12 +54,8 @@ Robot -  Custom 6-DOF Arm + Gripper
 - Transmissions configured for ros2_control
 - Full TF tree published
 
----
-
 
 ## How to Build and Run
-
-```bash
 colcon build
 source install/setup.bash
 
@@ -76,11 +66,7 @@ ros2 launch my_robot_bringup my_robot.launch.xml
 ros2 launch my_robot_pick_place pick_place.launch.py
 
 
-
-
-
 ## Pick-and-Place Logic (C++)
-
 High-level execution flow:
 Move robot to predefined home pose
 Add table and object to planning scene
@@ -94,7 +80,6 @@ Retreat to safe pose
 
 
 ## Tested Environment
-
 Ubuntu 24.04
 ROS 2 Jazzy
 Gazebo
@@ -103,22 +88,17 @@ MoveIt 2
 
 
 ## Future Improvements
-
 Vision-based object detection
 Automatic grasp pose generation
 Behavior Tree / State Machine integration
 Multi-object manipulation
 Real robot hardware deployment
 
-
 ## License
 This project is licensed under the Apache License 2.0.
 See the [LICENSE](LICENSE) file for details.
 
-
-
 ## Author
-
 Algam Srikanth
 Mechanical Engineer → Robotics Software Developer
 ROS 2 | MoveIt 2 | Gazebo | C++
