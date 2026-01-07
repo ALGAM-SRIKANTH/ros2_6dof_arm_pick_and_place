@@ -16,7 +16,7 @@ def generate_launch_description():
 
     ld = LaunchDescription()
 
-    # ✅ Force simulation time for ALL ROS nodes started after this
+    # Force simulation time for ALL ROS nodes started after this
     ld.add_action(SetParameter(name="use_sim_time", value=True))
 
     # MoveIt (move_group + RViz + robot_state_publisher)

@@ -1,8 +1,0 @@
-planner_configs:
-  RRTConnectkConfigDefault:
-    type: geometric::RRTConnect
-    range: 0.0
-
-arm:                     # MUST MATCH SRDF GROUP NAME
-  planner_configs:
-    - RRTConnectkConfigDefault

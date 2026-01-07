@@ -1,3 +1,0 @@
-Panels:
-  - Class: moveit_rviz_plugin/MotionPlanning
-    Name: Motion Planning

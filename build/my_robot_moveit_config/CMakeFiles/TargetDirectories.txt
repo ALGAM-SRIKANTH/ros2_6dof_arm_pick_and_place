@@ -1,9 +1,0 @@
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/uninstall.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/my_robot_moveit_config_uninstall.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/test.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/edit_cache.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/rebuild_cache.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/list_install_components.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/install.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/install/local.dir
-/home/algam/industrial_arm_ws/build/my_robot_moveit_config/CMakeFiles/install/strip.dir
