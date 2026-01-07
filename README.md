@@ -30,7 +30,7 @@ Gazebo (Physics Simulation)
 
 ## Demo – ROS 2 Pick & Place
 
-[Pick and Place Demo](demo/pick_place_preview.gif)
+![Pick and Place Demo](demo/pick_place_preview.gif)
 
 [Full demo video](demo/pick_place_demo.mp4)
 
