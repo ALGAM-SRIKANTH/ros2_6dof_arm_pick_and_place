@@ -22,12 +22,9 @@ simulation using an industry-style robot software architecture.
 
 ## System Architecture
 
-Task Layer (Pick & Place)
-        |
-MoveIt 2 (Planning)
-        |
-ros2_control (Execution)
-        |
+Task Layer (Pick & Place) ->
+MoveIt 2 (Planning) ->
+ros2_control (Execution) ->
 Gazebo (Physics Simulation)
 
 
@@ -39,12 +36,12 @@ Gazebo (Physics Simulation)
 
 
 ## Technology Stack
-ROS Version -  ROS 2 Jazzy
-Simulator -  Gazebo
-Motion Planning -  MoveIt 2
-Controllers -  ros2_contro
-Programming Language -  python, C++
-Robot -  Custom 6-DOF Arm + Gripper 
+- ROS Version -  ROS 2 Jazzy
+- Simulator -  Gazebo
+- Motion Planning -  MoveIt 2
+- Controllers -  ros2_contro
+- Programming Language -  python, C++
+- Robot -  Custom 6-DOF Arm + Gripper 
 
 
 ## Robot Description
@@ -56,49 +53,53 @@ Robot -  Custom 6-DOF Arm + Gripper
 
 
 ## How to Build and Run
+```bash
+# Build workspace
 colcon build
 source install/setup.bash
-
+```
+```bash
 # Start Gazebo simulation, controllers, Rviz and MoveIt
 ros2 launch my_robot_bringup my_robot.launch.xml
-
+```
+```bash
 # Run pick-and-place task
 ros2 launch my_robot_pick_place pick_place.launch.py
-
+```
 
 ## Pick-and-Place Logic (C++)
-High-level execution flow:
-Move robot to predefined home pose
-Add table and object to planning scene
-Move arm to pre-grasp pose
-Open gripper
-Approach object and close gripper
-Attach object to end-effector
-Move to target place pose
-Detach object
-Retreat to safe pose
+- High-level execution flow:
+- Move robot to predefined home pose
+- Add table and object to planning scene
+- Move arm to pre-grasp pose
+- Open gripper
+- Approach object and close gripper
+- Attach object to end-effector
+- Move to target place pose
+- Detach object
+- Retreat to safe pose
 
 
 ## Tested Environment
-Ubuntu 24.04
-ROS 2 Jazzy
-Gazebo
-RViz2
-MoveIt 2
+- Ubuntu 24.04
+- ROS 2 Jazzy
+- Gazebo
+- Rviz2
+- MoveIt 2
 
 
 ## Future Improvements
-Vision-based object detection
-Automatic grasp pose generation
-Behavior Tree / State Machine integration
-Multi-object manipulation
-Real robot hardware deployment
+- Vision-based object detection
+- Automatic grasp pose generation
+- Behavior Tree / State Machine integration
+- Multi-object manipulation
+- Real robot hardware deployment
 
 ## License
-This project is licensed under the Apache License 2.0.
+This project is licensed under the MIT License.
 See the [LICENSE](LICENSE) file for details.
 
 ## Author
-Algam Srikanth
-Mechanical Engineer → Robotics Software Developer
-ROS 2 | MoveIt 2 | Gazebo | C++
+- Algam Srikanth |
+- Mechanical Engineer → Robotics Software Developer
+- ROS 2 | MoveIt 2 | Gazebo | C++
