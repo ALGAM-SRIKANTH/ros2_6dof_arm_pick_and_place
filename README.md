@@ -53,17 +53,17 @@ Gazebo (Physics Simulation)
 
 
 ## How to Build and Run
+- Build workspace
 ```bash
-# Build workspace
 colcon build
 source install/setup.bash
 ```
+- Start Gazebo simulation, controllers, Rviz and MoveIt
 ```bash
-# Start Gazebo simulation, controllers, Rviz and MoveIt
 ros2 launch my_robot_bringup my_robot.launch.xml
 ```
+- Run pick-and-place task
 ```bash
-# Run pick-and-place task
 ros2 launch my_robot_pick_place pick_place.launch.py
 ```
 
