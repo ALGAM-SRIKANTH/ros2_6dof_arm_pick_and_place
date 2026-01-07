@@ -3,17 +3,20 @@ build/
 install/
 log/
 
+# VS Code
+.vscode/
+*.db
+*.db-shm
+*.db-wal
+
 # Python
 __pycache__/
 *.pyc
 
-# C++
+# C++ build files
 *.o
 *.so
 
-# VS Code
-.vscode/
-
-# OS
+# OS files
 .DS_Store
 Thumbs.db
