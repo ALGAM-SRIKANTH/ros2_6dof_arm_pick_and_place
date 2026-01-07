@@ -41,7 +41,7 @@ Gazebo (Physics Simulation)
 - Motion Planning -  MoveIt 2
 - Controllers -  ros2_contro
 - Programming Language -  python, C++
-- Robot -  Custom 6-DOF Arm + Gripper 
+- Robot -  Custom 6-DOF Arm + Gripper
 
 
 ## Robot Description
